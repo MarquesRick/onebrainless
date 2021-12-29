@@ -30,7 +30,7 @@
 ℹ️&nbsp;<b>[Backend]</b> - Necessário que o backend esteja em execução já que vamos utiliza-lo no Mock de dados e autenticação <br />
 ℹ️&nbsp;<b>[Pacotes]</b> - Necessário executar o comando <code>yarn</code> na pasta <b>/frontend</b> via terminal para que o gerenciador de pacotes realize o download de imports faltantes na máquina.<br />
 ℹ️&nbsp;<b>[Start]</b> - Para 'startar' a aplicação é necessário executar o comando dentro da pasta <b>/backend</b> via terminal. Comando: <code>yarn start</code><br />
-ℹ️&nbsp;<b>[UsuarioTeste]</b> Pode utilizar o usuário. <b>Login:</b> henrique.marques ou <b>Login:</b> teste. Ambos a <b>Senha é:</b> teste
+ℹ️&nbsp;<b>[UsuarioTeste]</b> Pode utilizar o usuário. <b>Login:</b> henrique.marques ou <b>Login:</b> teste. Ambos a <b>Senha é:</b> teste<br /><br />
 ✅&nbsp;<b>[DicaExtra]</b> No BcryptJs a senha <b>teste</b> fica: $2a$08$dxHtsmKmw11XP8ko7GaHsuh4qRolOJUs0ARBlVDwRDS5k8bCYm9y. 😉
 
 <br /><br />
