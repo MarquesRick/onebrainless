@@ -1,0 +1,312 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "email": "henrique.marques@teste.com",
+      "username": "Henrique Marques",
+      "login": "henrique.marques",
+      "createdAt": "10-12-2021",
+      "password": "$2a$08$dxHtsmKmw11XP8ko7GaHsuh4qRolOJUs0ARBlVDwRDS5k8bCYm9y."
+    },
+    {
+      "id": 2,
+      "email": "teste.adm@teste.com",
+      "username": "Teste adm",
+      "login": "teste",
+      "createdAt": "10-12-2021",
+      "password": "$2a$08$dxHtsmKmw11XP8ko7GaHsuh4qRolOJUs0ARBlVDwRDS5k8bCYm9y."
+    }
+  ],
+  "flavor": [
+    {
+      "id": 1,
+      "description": "marguerita",
+      "ingredients": "tomate|manjericão|queijo|molho de tomate",
+      "price": 25.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 2,
+      "description": "portuguesa",
+      "ingredients": "tomate|ovos|cebola|molho de tomate|azeitonas",
+      "price": 26.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 3,
+      "description": "cogumelo",
+      "ingredients": "tomate|ovos|cebola|molho de tomate|cogumelos",
+      "price": 28.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 4,
+      "description": "festiva",
+      "ingredients": "tomate|salame|cebola|molho de tomate|manjericão|azeitonas",
+      "price": 30.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 5,
+      "description": "rústica",
+      "ingredients": "tomate|calabresa|queijo|orégano",
+      "price": 19.9,
+      "createdAt": "31-12-2021"
+    }
+  ],
+  "dough": [
+    {
+      "id": 1,
+      "description": "Massa grossa",
+      "price": 15.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 2,
+      "description": "Massa média",
+      "price": 13.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 3,
+      "description": "Massa fina",
+      "price": 10.9,
+      "createdAt": "31-12-2021"
+    }
+  ],
+  "size": [
+    {
+      "id": 1,
+      "description": "Pequena",
+      "measure": "P",
+      "price": 10.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 2,
+      "description": "Média",
+      "measure": "M",
+      "price": 12.9,
+      "createdAt": "31-12-2021"
+    },
+    {
+      "id": 3,
+      "description": "Grande",
+      "measure": "G",
+      "price": 16.9,
+      "createdAt": "31-12-2021"
+    }
+  ],
+  "order": [
+    {
+      "user": {
+        "id": 1,
+        "email": "henrique.marques@teste.com",
+        "username": "Henrique Marques",
+        "login": "henrique.marques",
+        "createdAt": "10-12-2021",
+        "password": "$2a$08$dxHtsmKmw11XP8ko7GaHsuh4qRolOJUs0ARBlVDwRDS5k8bCYm9y."
+      },
+      "flavor": {
+        "id": 3,
+        "description": "cogumelo",
+        "ingredients": "tomate|ovos|cebola|molho de tomate|cogumelos",
+        "price": 28.9,
+        "createdAt": "31-12-2021"
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9,
+        "createdAt": "31-12-2021"
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9,
+        "createdAt": "31-12-2021"
+      },
+      "createdAt": "29/12/2021 02:19:30",
+      "totalPrice": 55.7,
+      "estimatedDelivery": "29/12/2021 03:04:30",
+      "id": 15
+    },
+    {
+      "user": {
+        "id": 1,
+        "email": "henrique.marques@teste.com",
+        "username": "Henrique Marques",
+        "login": "henrique.marques",
+        "createdAt": "10-12-2021",
+        "password": "$2a$08$dxHtsmKmw11XP8ko7GaHsuh4qRolOJUs0ARBlVDwRDS5k8bCYm9y."
+      },
+      "flavor": {
+        "id": 1,
+        "description": "marguerita",
+        "ingredients": "tomate|manjericão|queijo|molho de tomate",
+        "price": 25.9,
+        "createdAt": "31-12-2021"
+      },
+      "dough": {
+        "id": 3,
+        "description": "Massa fina",
+        "price": 10.9,
+        "createdAt": "31-12-2021"
+      },
+      "size": {
+        "id": 3,
+        "description": "Grande",
+        "measure": "G",
+        "price": 16.9,
+        "createdAt": "31-12-2021"
+      },
+      "createdAt": "29/12/2021 02:33:13",
+      "totalPrice": 53.7,
+      "estimatedDelivery": "29/12/2021 03:18:13",
+      "id": 16
+    }
+  ],
+  "pizzaDay": [
+    {
+      "id": 1,
+      "dayOfWeek": "Segunda",
+      "flavor": {
+        "id": 1,
+        "description": "marguerita",
+        "price": 25.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 2,
+      "dayOfWeek": "Terca",
+      "flavor": {
+        "id": 2,
+        "description": "portuguesa",
+        "price": 26.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 3,
+      "dayOfWeek": "Quarta",
+      "flavor": {
+        "id": 3,
+        "description": "cogumelo",
+        "price": 28.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 4,
+      "dayOfWeek": "Quinta",
+      "flavor": {
+        "id": 1,
+        "description": "festiva",
+        "price": 30.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 5,
+      "dayOfWeek": "Sexta",
+      "flavor": {
+        "id": 5,
+        "description": "rústica",
+        "price": 19.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 6,
+      "dayOfWeek": "Sabado",
+      "flavor": {
+        "id": 3,
+        "description": "cogumelo",
+        "price": 28.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    },
+    {
+      "id": 7,
+      "dayOfWeek": "Domingo",
+      "flavor": {
+        "id": 3,
+        "description": "cogumelo",
+        "price": 28.9
+      },
+      "dough": {
+        "id": 1,
+        "description": "Massa grossa",
+        "price": 15.9
+      },
+      "size": {
+        "id": 1,
+        "description": "Pequena",
+        "measure": "P",
+        "price": 10.9
+      }
+    }
+  ]
+}
